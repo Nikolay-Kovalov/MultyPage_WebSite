@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul id="ul">
+            <li><a href="#service">Our services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#work">How we work</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#FAQ">FAQ</a></li>
+            <li><a href="#advantages">About Us</a></li>
+          </ul>
+        </nav>
+        <div class="header-contact-wrapper">
+          <div class="phone">
+            <a href="tel:+353322456345" class="phone-link">
+              <svg width="24" height="24">
+                <use href="./images/sprite.svg#icon-Phone"></use>
+              </svg>
+              +353 (322) 456 345</a
+            >
+          </div>
+          <a href="#callback" class="callback-link">Call me back</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="CTA">
+            <h1>QUICK solution<br />to your problems</h1>
+            <p>
+              Entrust your household worries to us! Our company provides
+              services of husband and wife for an hour, professional plumbing
+              work and much more. Quality, efficiency and convenience for you -
+              this is our priority
+            </p>
+            <a href="./order.html">Order service</a>
+          </div>
+          <p class="arrow-text">Scroll for more</p>
+          <div class="hero-image-wrapper">
+            <div class="announcment">
+              <svg width="40" height="40">
+                <use href="./images/sprite.svg#icon-Warning"></use>
+              </svg>
+              <p>Urgent repairs</p>
+            </div>
+            <div class="announcment2">
+              <svg width="40" height="40">
+                <use href="./images/sprite.svg#icon-ArrowFatLineUp"></use>
+              </svg>
+              <p>High quality work</p>
+            </div>
+            <div class="announcment3">
+              <svg width="40" height="40">
+                <use href="./images/sprite.svg#icon-Timer"></use>
+              </svg>
+              <p>Quick response</p>
+            </div>
+            <div class="blue-square"></div>
+            <div class="blue-circle"></div>
+            <div class="darkblue-circle"></div>
+            <div class="orange-circle"></div>
+            <div class="working-hours">
+              <h3>We are working for you</h3>
+              <p>From<span>8:00</span></p>
+              <p>To<span>21:00</span></p>
+            </div>
+            <div class="help">
+              <svg width="72" height="72">
+                <use href="./images/sprite.svg#icon-Handshake"></use>
+              </svg>
+              <p>
+                <span>OUR work is</span><span>to</span><span>help YOU</span>
+              </p>
+            </div>
+            <p class="slogan">
+              Trust us to make your home and surroundings comfortable without
+              the hassle!
+            </p>
+            <img src="./images/hero-man.png" alt="" width="432" height="552" />
+          </div>
+        </div>
+      </section>
+      <section class="services" id="service">
+        <div class="container">
+          <h2>Our services</h2>
+          <!-- <div class="js-guard"></div> -->
+          <ul class="service-list js-guard">
+            <li class="service-1 serv js-guard">
+              <img
+                src="./images/Service-1.jpg"
+                width="424"
+                height="233"
+                alt=""
+              />
+              <h3>Plumbing repair and installation</h3>
+              <p>
+                Our experienced plumbers are ready to solve any plumbing and
+                drainage issues.
+              </p>
+              <div class="buttons-wrapper">
+                <a class="service-order-link" href="./order.html"
+                  >Order service</a
+                >
+                <div class="link-wrapper">
+                  <a href="./plumbing.html"
+                    >Learn more
+                    <svg width="32" height="32">
+                      <use href="./images/sprite.svg#icon-ArrowRight"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="service-2 serv">
+              <img src="./images/Service-2.png" alt="" />
+              <h3>Electrical installation and repair</h3>
+              <p>
+                Our electricians are ready to provide a full range of services,
+                from electrical installation to professional electrical repairs.
+              </p>
+              <div class="buttons-wrapper">
+                <a class="service-order-link" href="./order.html"
+                  >Order service</a
+                >
+                <div class="link-wrapper">
+                  <a href="./elerctric.html"
+                    >Learn more
+                    <svg width="32" height="32">
+                      <use href="./images/sprite.svg#icon-ArrowRight"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="service-3 serv">
+              <img src="./images/Service-3.jpg" alt="" />
+              <h3>Repair of household appliances</h3>
+              <p>
+                Our experienced craftsmen provide quality appliance repair
+                services, ensuring reliability and efficiency in every project.
+              </p>
+              <div class="buttons-wrapper">
+                <a class="service-order-link" href="./order.html"
+                  >Order service</a
+                >
+                <div class="link-wrapper">
+                  <a href="./repair.html"
+                    >Learn more
+                    <svg width="32" height="32">
+                      <use href="./images/sprite.svg#icon-ArrowRight"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="service-4 serv">
+              <img src="./images/Service-4.jpg" alt="" />
+              <h3>Services of a loader for moving</h3>
+              <p>
+                Efficient moving movers will ensure that your belongings are
+                moved quickly and neatly, making the moving process easy.
+              </p>
+              <div class="buttons-wrapper">
+                <a class="service-order-link" href="./order.html"
+                  >Order service</a
+                >
+                <div class="link-wrapper">
+                  <a href="./services.html"
+                    >Learn more
+                    <svg width="32" height="32">
+                      <use href="./images/sprite.svg#icon-ArrowRight"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="service-5 serv">
+              <img src="./images/Service-5.jpg" alt="" />
+              <h3>Cleaning</h3>
+              <p>
+                Professional cleaning services for the perfect cleanliness of
+                your space - we make your home or office sparklingly clean.
+              </p>
+              <div class="buttons-wrapper">
+                <a class="service-order-link" href="./order.html"
+                  >Order service</a
+                >
+                <div class="link-wrapper">
+                  <a href="./cleaning.html"
+                    >Learn more
+                    <svg width="32" height="32">
+                      <use href="./images/sprite.svg#icon-ArrowRight"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="service-6 serv">
+              <img src="./images/Service-6.jpg" alt="" />
+              <h3>Help around the house</h3>
+              <p>
+                Our caring helpers provide a variety of assistance around the
+                house, ensuring that your life is cozy, orderly and comfortable.
+              </p>
+              <div class="buttons-wrapper">
+                <a class="service-order-link" href="./order.html"
+                  >Order service</a
+                >
+                <div class="link-wrapper">
+                  <a href="./help.html"
+                    >Learn more
+                    <svg width="32" height="32">
+                      <use href="./images/sprite.svg#icon-ArrowRight"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="service-7 serv">
+              <img src="./images/Service-7.jpg" alt="" />
+              <h3>Shopping</h3>
+              <p>
+                Our associates are happy to take care of your daily shopping
+                necessities, freeing up your time for more important matters.
+              </p>
+              <div class="buttons-wrapper">
+                <a class="service-order-link" href="./order.html"
+                  >Order service</a
+                >
+                <div class="link-wrapper">
+                  <a href="./shopping.html"
+                    >Learn more
+                    <svg width="32" height="32">
+                      <use href="./images/sprite.svg#icon-ArrowRight"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="service-8 serv">
+              <img src="./images/Service-8.png" alt="" />
+              <h3>Garden helper</h3>
+              <p>
+                Our garden helpers are your trusted ally in tending your garden,
+                ensuring it thrives and is beautiful.
+              </p>
+              <div class="buttons-wrapper">
+                <a class="service-order-link" href="./order.html"
+                  >Order service</a
+                >
+                <div class="link-wrapper">
+                  <a href="./garden.html"
+                    >Learn more
+                    <svg width="32" height="32">
+                      <use href="./images/sprite.svg#icon-ArrowRight"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="advantages" id="advantages">
+        <div class="container">
+          <!-- <div class="js-guard-1"></div> -->
+          <ul class="advantages-list js-guard-1">
+            <li>
+              <svg width="72" height="72">
+                <use href="./images/sprite.svg#icon-Smiley"></use>
+              </svg>
+              <h3>Customized approach</h3>
+            </li>
+            <li>
+              <svg width="72" height="72">
+                <use href="./images/sprite.svg#icon-Clock"></use>
+              </svg>
+              <h3>Quick Response</h3>
+            </li>
+            <li>
+              <svg width="72" height="72">
+                <use href="./images/sprite.svg#icon-Coins"></use>
+              </svg>
+              <h3>Affordable prices</h3>
+            </li>
+            <li>
+              <svg width="72" height="72">
+                <use href="./images/sprite.svg#icon-Wrench"></use>
+              </svg>
+              <h3>Wide range of services</h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <h2>Customer Reviews</h2>
+          <ul class="review-list">
+            <li class="review">
+              <div class="review-wrapper">
+                <div class="photo-wrapper">
+                  <img
+                    src="./images/WomanReview 1.jpg"
+                    alt=""
+                    width="64"
+                    height="64"
+                  />
+                  <div class="wrapper">
+                    <h3>Mary</h3>
+                    <ul>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <span>23.03.2023</span>
+              </div>
+              <p class="review-text">
+                Professionalism and efficiency! Very pleased with the work with
+                your company. The plumbers completed the repair quickly and
+                efficiently, leaving a clean finish. Recommended!
+              </p>
+            </li>
+            <li class="review">
+              <div class="review-wrapper">
+                <div class="photo-wrapper">
+                  <img
+                    src="./images/ManReview2.jpg"
+                    alt=""
+                    width="64"
+                    height="64"
+                  />
+                  <div class="wrapper">
+                    <h3>Elan</h3>
+                    <ul>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24" class="empty">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <span>11.09.2023</span>
+              </div>
+              <p class="review-text">
+                Excellent service of wife services for an hour. The workers came
+                on time, everything was done quickly and without hassle. The
+                prices are reasonable, I will definitely apply again!
+              </p>
+            </li>
+            <li class="review">
+              <div class="review-wrapper">
+                <div class="photo-wrapper">
+                  <img
+                    src="./images/ManReview3.svg"
+                    alt=""
+                    width="64"
+                    height="64"
+                  />
+                  <div class="wrapper">
+                    <h3>Ben</h3>
+                    <ul>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg width="24" height="24">
+                          <use href="./images/sprite.svg#icon-Star-1"></use>
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <span>01.11.2023</span>
+              </div>
+              <p class="review-text">
+                Thank you for your prompt help! Called a plumbe for an hour -
+                problem was solved quickly. Very friendly staff, great service.
+                100% satisfied!
+              </p>
+            </li>
+          </ul>
+          <div class="buttons-wrapper">
+            <button>
+              <svg width="32" height="32" class="icon-button">
+                <use href="./images/sprite.svg#icon-ArrowRight1"></use>
+              </svg>
+            </button>
+            <button>
+              <svg width="32" height="32" class="icon-button">
+                <use href="./images/sprite.svg#icon-ArrowRight2"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="callback" id="callback">
+        <div class="container">
+          <h2>Сall back</h2>
+          <form>
+            <div class="input-name-wrapper">
+              <input type="text" class="input-name" />
+            </div>
+            <div class="input-phone-wrapper">
+              <input type="text" class="input-phone" />
+            </div>
+            <button type="submit">
+              <svg width="24" height="24">
+                <use href="./images/sprite.svg#icon-PhoneCall"></use>
+              </svg>
+              <span>Call me back</span>
+            </button>
+          </form>
+          <img src="./images/Calback-man.png" width="536" height="542" alt="" />
+          <div class="callback-white-circle"></div>
+          <div class="callback-blue-circle"></div>
+          <div class="callback-orange-circle"></div>
+          <div class="callback-square-text">
+            <p>
+              Anytime you need help, we're here, ready to promptly resolve your
+              household issues and make your life more comfortable!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="FAQ" id="FAQ">
+        <div class="container">
+          <h2>FAQ</h2>
+          <div class="wrapper">
+            <ul>
+              <li>
+                <h3>How quickly can I order the services of your company?</h3>
+                <p>
+                  It is easy and quick to order services through our website, by
+                  phone or through the feedback form. We try to respond promptly
+                  to all requests.
+                </p>
+              </li>
+              <li>
+                <h3>
+                  What kind of plumbing services does your company provide?
+                </h3>
+                <p>
+                  We provide a wide range of plumbing services including clog
+                  removal, plumbing fixture repair and replacement, and
+                  preventive maintenance.
+                </p>
+              </li>
+              <li>
+                <h3>Do you have experience with electrical systems?</h3>
+                <p>
+                  Yes, our electricians have extensive experience in installing,
+                  repairing, and maintaining electrical systems, including
+                  electrical wiring work.
+                </p>
+              </li>
+              <li>
+                <h3>What services do your company's movers provide?</h3>
+                <p>
+                  Our movers provide loading/unloading services, furniture
+                  moving, as well as assistance in moving. We guarantee careful
+                  handling of your belongings.
+                </p>
+              </li>
+              <li>
+                <h3>What is included in your company's cleaning services?</h3>
+                <p>
+                  Our cleaning services include housekeeping, window washing,
+                  carpet cleaning, and office and commercial maintenance.
+                </p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <h3>What tasks can a garden helper perform?</h3>
+                <p>
+                  Our garden assistants handle garden maintenance, tree pruning,
+                  planting, grounds cleaning and other gardening tasks.
+                </p>
+              </li>
+              <li>
+                <h3>What are the duties of a home health aide?</h3>
+                <p>
+                  Home Helpers perform a variety of tasks including cleaning,
+                  cooking, laundry, pet care, and other household duties.
+                </p>
+              </li>
+              <li>
+                <h3>
+                  What safety precautions do your professionals take when
+                  providing services?
+                </h3>
+                <p>
+                  Our professionals follow all necessary safety precautions when
+                  working, use protective equipment, and make sure the
+                  environment is safe.
+                </p>
+              </li>
+              <li>
+                <h3>How do you pay for services?</h3>
+                <p>
+                  Payment for services is made in a convenient way for you -
+                  cash, bank card or transfer. We provide detailed receipts for
+                  services rendered.
+                </p>
+              </li>
+              <li>
+                <h3>
+                  Can I get a consultation on choosing the necessary services
+                  for my case?
+                </h3>
+                <p>
+                  Yes, our specialists are ready to provide advice and help you
+                  choose the most appropriate services for your needs and
+                  budget. Please contact us for more information.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="work" id="work">
+        <div class="container">
+          <h2>How we work</h2>
+          <ul class="sm js-guard-2">
+            <li>
+              <h3>1<span>We contact you promptly</span></h3>
+              <p>
+                Once you have left an application on our website we contact you
+              </p>
+            </li>
+            <li>
+              <h3>2<span>Choose a time</span></h3>
+              <p>
+                Arrange a time and day that is convenient for you. There is also
+                an option of urgent call of a specialist.
+              </p>
+            </li>
+            <li>
+              <h3>2<span>We solve your problem</span></h3>
+              <p>We come to you promptly and solve your problem.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <h2>Contacts</h2>
+          <ul>
+            <li>
+              <a href="tel:+353322456345">
+                <svg width="40" height="40">
+                  <use href="./images/sprite.svg#icon-PhoneBig"></use>
+                </svg>
+                +353 (322) 456 345</a
+              >
+            </li>
+            <li>
+              <a href="mailto:example@gmail.com">
+                <svg width="40" height="40">
+                  <use href="./images/sprite.svg#icon-Envelope"></use>
+                </svg>
+                example@gmail.com</a
+              >
+            </li>
+          </ul>
+          <img
+            src="./images/contact-woman.png"
+            alt=""
+            width="536"
+            height="448"
+          />
+          <div class="contact-white-circle"></div>
+          <div class="contact-blue-circle"></div>
+          <div class="contact-orange-circle"></div>
+          <div class="contact-square-text">
+            <p>
+              With us, your life becomes easier and problems are solved
+              instantly so you can enjoy comfort without delay.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <nav>
+          <ul id="ul">
+            <li><a href="#service">Our services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#work">How we work</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#FAQ">FAQ</a></li>
+            <li><a href="#advantages">About Us</a></li>
+          </ul>
+        </nav>
+        <p>© 2023. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>

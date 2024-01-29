@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul id="ul">
+            <li><a href="./index.html#service">Our services</a></li>
+            <li><a href="./index.html#reviews">Reviews</a></li>
+            <li><a href="./index.html#work">How we work</a></li>
+            <li><a href="./index.html#contacts">Contacts</a></li>
+            <li><a href="./index.html#FAQ">FAQ</a></li>
+            <li><a href="./index.html#advantages">About Us</a></li>
+          </ul>
+        </nav>
+        <div class="header-contact-wrapper">
+          <div class="phone">
+            <a href="tel:+353322456345" class="phone-link">
+              <svg width="24" height="24">
+                <use href="./images/sprite.svg#icon-Phone"></use>
+              </svg>
+              +353 (322) 456 345</a
+            >
+          </div>
+          <a href="./index.html#callback" class="callback-link">Call me back</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="order-form">
+        <div class="container">
+          <div class="bread-crumbs">
+            <a href="./index.html"
+              ><svg width="8" height="8">
+                <use href="./images/sprite.svg#icon-Frame-153"></use>
+              </svg>
+              Mane page</a
+            >
+            <a href="./index.html" class="bread-crumb-link"
+              ><svg width="8" height="8">
+                <use href="./images/sprite.svg#icon-Frame-153"></use>
+              </svg>
+              <span class="link-text"></span>
+            </a>
+          </div>
+          <h1>Order service</h1>
+          <div class="order-wrapper">
+            <form class="form">
+              <div class="input-name-wrapper">
+                <input
+                  type="text"
+                  name="name"
+                  id="username"
+                  placeholder="Nick"
+                />
+              </div>
+              <div class="input-phone-wrapper">
+                <input
+                  type="text"
+                  name="phone"
+                  id="user-phone"
+                  placeholder="+38099234 67 90"
+                />
+              </div>
+              <div class="input-email-wrapper">
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="example@gmail.com"
+                />
+              </div>
+              <div class="input-eircode-wrapper">
+                <input type="text" name="eircode" placeholder="A65 F4E2" />
+              </div>
+              <div class="textarea-wrapper">
+                <div class="input-textarea-wrapper">
+                  <textarea name="" id="" cols="26" rows="10"></textarea>
+                </div>
+                <div class="label-wrapper">
+                  <input
+                    type="radio"
+                    id="check-first"
+                    name="radio-btn"
+                    value="I need a favor right away"
+                  />
+                  <label for="check-first">I need a favor right away</label>
+                </div>
+                <div class="label-wrapper">
+                  <input
+                    type="radio"
+                    id="check-second"
+                    name="radio-btn"
+                    value="I don't need to call back"
+                  />
+                  <label for="check-second">I don't need to call back</label>
+                </div>
+              </div>
+              <button>Order service</button>
+            </form>
+            <div class="time-wrapper">
+              <div class="calendar">
+                <div class="calendar-header">
+                  <!-- <p class="year"></p> -->
+                  <div class="btn_wrapper">
+                    <button class="prev butt">&lt;</button>
+                    <div class="month-wrapper">
+                      <p class="month"></p>
+                      <span class="year"></span>
+                    </div>
+
+                    <button class="next butt1">&gt;</button>
+                  </div>
+                  <!-- <p class="currentDay"></p> -->
+                </div>
+                <table>
+                  <tr class="tr_head">
+                    <th>Mo</th>
+                    <th>Tu</th>
+                    <th>We</th>
+                    <th>Th</th>
+                    <th>Fr</th>
+                    <th>Sa</th>
+                    <th>Su</th>
+                  </tr>
+                  <tr>
+                    <td id="1"></td>
+                    <td id="2"></td>
+                    <td id="3"></td>
+                    <td id="4"></td>
+                    <td id="5"></td>
+                    <td id="6"></td>
+                    <td id="7"></td>
+                  </tr>
+                  <tr>
+                    <td id="8"></td>
+                    <td id="9"></td>
+                    <td id="10"></td>
+                    <td id="11"></td>
+                    <td id="12"></td>
+                    <td id="13"></td>
+                    <td id="14"></td>
+                  </tr>
+                  <tr>
+                    <td id="15"></td>
+                    <td id="16"></td>
+                    <td id="17"></td>
+                    <td id="18"></td>
+                    <td id="19"></td>
+                    <td id="20"></td>
+                    <td id="21"></td>
+                  </tr>
+                  <tr>
+                    <td id="22"></td>
+                    <td id="23"></td>
+                    <td id="24"></td>
+                    <td id="25"></td>
+                    <td id="26"></td>
+                    <td id="27"></td>
+                    <td id="28"></td>
+                  </tr>
+                  <tr>
+                    <td id="29"></td>
+                    <td id="30"></td>
+                    <td id="31"></td>
+                    <td id="32"></td>
+                    <td id="33"></td>
+                    <td id="34"></td>
+                    <td id="35"></td>
+                  </tr>
+                  <tr>
+                    <td id="36"></td>
+                    <td id="37"></td>
+                    <td id="38"></td>
+                    <td id="39"></td>
+                    <td id="40"></td>
+                    <td id="41"></td>
+                    <td id="42"></td>
+                  </tr>
+                </table>
+              </div>
+              <div class="hours">
+                <span class="time">8:00</span>
+                <span class="time">8:30</span>
+                <span class="time">9:00</span>
+                <span class="time">9:30</span>
+                <span class="time">10:00</span>
+                <span class="time">10:30</span>
+                <span class="time">11:00</span>
+                <span class="time">11:30</span>
+                <span class="time">12:00</span>
+                <span class="time">12:30</span>
+                <span class="time">13:00</span>
+                <span class="time">13:30</span>
+                <span class="time">14:00</span>
+                <span class="time">14:30</span>
+                <span class="time">15:00</span>
+                <span class="time">15:30</span>
+                <span class="time">16:00</span>
+                <span class="time">16:30</span>
+                <span class="time">17:00</span>
+                <span class="time">17:30</span>
+                <span class="time">18:00</span>
+                <span class="time">18:30</span>
+                <span class="time">19:00</span>
+                <span class="time">19:30</span>
+                <span class="time">20:00</span>
+                <span class="time">20:30</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="./images/order-img.png" alt="" width="646" height="872" />
+        <div class="blue-circle-first"></div>
+        <div class="blue-circle-second"></div>
+        <div class="white-circle-first"></div>
+        <div class="white-circle-second"></div>
+        <div class="orange-circle-first"></div>
+        <div class="orange-circle-second"></div>
+      </section>
+    </main>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
