@@ -36,9 +36,12 @@ function callback(entries,observer) {
 })
 }
 
-obserever.observe(target);
+if (target && target1 && target2) {
+   obserever.observe(target);
 obserever.observe(target1);
-obserever.observe(target2);
+obserever.observe(target2); 
+}
+
 
 
 let string;
