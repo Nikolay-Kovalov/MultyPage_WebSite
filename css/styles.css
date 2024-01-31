@@ -6044,7 +6044,7 @@ td:hover {
         align-items: center;
         gap: 24px;
         top: 202px;
-        right: -400px;
+        right: -1000px;
         width: 297px;
         height: 56px;
         background-color: #043565;
@@ -6058,7 +6058,7 @@ td:hover {
 
     @keyframes announcment2Show {
         0% {
-            right: -400px;
+            right: -1000px;
         }
 
         100% {
@@ -6075,7 +6075,7 @@ td:hover {
     .announcment3 {
         position: absolute;
         bottom: 0;
-        left: -800px;
+        left: -1800px;
         padding: 8px 20px;
         display: flex;
         align-items: center;
@@ -6092,7 +6092,7 @@ td:hover {
 
     @keyframes announcment3Show {
         0% {
-            left: -800px;
+            left: -1800px;
         }
 
         100% {
@@ -6294,7 +6294,7 @@ td:hover {
 
     .slogan {
         position: absolute;
-        right: -400px;
+        right: -1000px;
         bottom: 296px;
         width: 360px;
         height: 80px;
@@ -6303,11 +6303,25 @@ td:hover {
         z-index: 16;
         border-radius: 4px;
         color: #043565;
-        animation-name: announcment2Show;
+        animation-name: sloganShow;
         animation-delay: 2s;
         animation-duration: 1s;
         animation-fill-mode: forwards;
     }
+
+
+    @keyframes sloganShow {
+        0% {
+            right: -1000px;
+        }
+
+        100% {
+            right: 0px;
+        }
+
+    }
+
+
 
     .services {
         padding-top: 80px;
